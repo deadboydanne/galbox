@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body.noScroll{
+	overflow-y:scroll;
+}
+
+#overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:black no-repeat scroll center center;
+	cursor:pointer;
+}
+
+#lightbox {
+	position:fixed;
+	background:white url(img/loader.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+div.buttonContainer{
+	height:200px;
+	width:200px;
+	z-index:9999;
+	position:absolute;
+}
+
+div.closeContainer{
+	height:100px;
+	width:200px;
+	z-index:9999;
+	position:absolute;
+}
+
+img#rightArrow{
+	margin-top:77.5px;
+	margin-left:150px;
+	cursor:pointer;
+}
+
+img#leftArrow{
+	margin-top:77.5px;
+	margin-left:5px;
+	cursor:pointer;
+}
+
+img#closeButton{
+	margin-top:5px;
+	margin-left:150px;
+	cursor:pointer;
+}
+
+img#playButton{
+	margin-top:50px;
+	cursor:pointer;
+	margin-left:5px;
+}
+
+img.marker:hover{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}

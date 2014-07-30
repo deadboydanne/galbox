@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+p.rlarrow{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100.01%;
+	font:inherit;
+	vertical-align:baseline;
+	font:100.01%/1.375 Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div#gallery{
+	width:600px;
+	min-height:400px;
+	background-color:#7E7E7E;
+	padding:10px;
+	margin:auto;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div#bigImg{
+	text-align:center;
+	padding:5px;
+	height:470px;
+	width:580px;
+	margin:auto;
+	background-color:#636363;
+	border:#FFFFFF solid thin;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div#bigImg img{
+	max-height:450px;
+	max-width:550px;
+	border:thin #FFFFFF solid;
+	padding:5px;
+	margin-top: 5px;
+}
+
+div.imagesContainer{
+	width:570px;
+	margin:auto;
+	margin-bottom:5px;
+	margin-top:5px;
+	overflow:hidden;
+	background-color:#000000;
+	border:thin #FFFFFF solid;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div#images{
+	padding:5px;
+	height:80px;
+	white-space:nowrap;
+}
+
+div#images img{
+	max-width:60px;
+	clip:rect(0px,0px,50px,0px);
+	overflow:hidden;
+}
+
+div.image{
+	width:60px;
+	height:60px;
+	padding:5px;
+	margin:5px;
+	display:inline-block;
+	overflow:hidden;
+	background-size:cover;
+	background-position:center;
+}
+
+div.image:hover{
+	border:2px #FFFFFF solid;
+	cursor:pointer;
+	margin:3px;
+}
+
+div#arrows{
+	width:150px;
+	height:30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border:#FFFFFF solid thin;
+	white-space:nowrap;
+	margin:auto;
+	overflow:hidden;
+}
+div#left{
+	height:30px;
+	width:75px;
+	display:inline-block;
+	text-align:center;
+	font-size:20px;
+	border-right:#FFFFFF thin solid;
+	cursor:pointer;
+	background-color:#666666;
+}
+div#right{
+	height:30px;
+	width:75px;
+	display:inline-block;
+	text-align:center;
+	font-size:20px;
+	border-left:#FFFFFF thin solid;
+	cursor:pointer;
+	background-color:#666666;
+}
+div#right:hover, div#left:hover{
+	background-color:#7E7E7E;
+}
